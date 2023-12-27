@@ -1,0 +1,96 @@
+*{
+box-sizing: border-box;
+}
+
+main{
+    border: 5px solid #000;
+    width: 900px;
+    height: 900px;
+}
+.chess_container{
+    height: 800px;
+    width: 800px;
+    border: 3px solid black;
+    padding-left: 5px;
+    padding-top: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    margin: -5px 0 0 -5px;
+    
+}
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+    margin: -5px 0 0 -5px;
+  
+}
+
+.container_top{
+    display: block;
+    width: 800px;
+    height: 30px;
+    text-align: center;
+    margin-left: -5px;
+    margin-bottom: -5px;
+}
+.top{
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 75px;
+
+}
+.container_left{
+    display: inline-block;
+    width: 30px;
+    margin-top: -835px;
+    text-align: center;
+    vertical-align: middle;
+}
+.left{
+    font-size: 30px;
+    margin-top: 64px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.container_right{
+    display: inline-block;
+    width: 30px;
+    margin-top: -835px;
+    text-align: center;
+    vertical-align: middle;
+}
+.right{
+    font-size: 30px;
+    margin-top: 64px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+    
+}
+.container_bottom{
+    display: inline-block;
+    width: 800px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: -30px;
+}
+.bottom{
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 75px;
+}
